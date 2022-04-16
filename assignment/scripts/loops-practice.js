@@ -39,7 +39,10 @@ for (let i = 1; i < 11; i++) {
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
-
+// Set iterator variable to 5, stopping condition is set to 0, and interator is set to decrease by 1
+for (let i = 5; i >= 0; i--) {
+  console.log(i);
+}
 
 // 2. For of loops  
 console.log('---- 2. For Of loop ----');
