@@ -39,7 +39,7 @@ for (let i = 1; i < 11; i++) {
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
-// Set iterator variable to 5, stopping condition is set to 0, and interator is set to decrease by 1
+// Set initialization set to 5, stopping condition is set to 0, and interator is set to decrement by 1
 for (let i = 5; i >= 0; i--) {
   console.log(i);
 }
@@ -50,7 +50,10 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
-
+// My loop
+for ( i of stars ) {
+  console.log('Some stars:', i);
+}
 
 // 3. While loops  
 console.log('---- 3. While loop ----');
